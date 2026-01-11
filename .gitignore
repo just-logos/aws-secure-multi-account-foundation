@@ -1,0 +1,11 @@
+# Terraform provider cache
+.terraform/
+
+# Terraform state files (DO NOT COMMIT)
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
