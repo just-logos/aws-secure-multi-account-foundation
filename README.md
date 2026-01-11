@@ -6,7 +6,7 @@ Design and implement a secure AWS multi-account environment that enforces preven
 This project demonstrates how a cloud security engineer would design foundational controls to reduct blast radius, enforce least privilege, and maintain centralized visibility across AWS acounts.
 
 ## Architecture
-(Diagram to be added)
+![Architecture Diagram](diagrams/architecture.png)
 
 ## Security Controls
 
