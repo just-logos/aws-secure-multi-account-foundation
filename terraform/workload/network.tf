@@ -4,7 +4,6 @@
 
 # Query AWS for all available AZs in the current region
 # Dynamically to avoid hardcoding AZ names
-
 data "aws_availability_zones" "available" {
   state = "available"
 }
