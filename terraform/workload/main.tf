@@ -5,7 +5,7 @@
 # Primary VPC for workload resources
 resource "aws_vpc" "workload" {
   # Use a /16 CIDR from RFC1918 private address space
-  cidr_block          = "10.0.0.0/16"
+  cidr_block = "10.0.0.0/16"
 
   # Enable DNS support and hostnames for resources within the VPC
   enable_dns_support   = true

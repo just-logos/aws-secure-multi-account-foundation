@@ -9,9 +9,9 @@ provider "aws" {
 
   default_tags {
     tags = {
-        Project = "aws-secure-multi-account-foundation"
-        Environment = "lab"
-        Owner = "KevinZheng"
+      Project     = "aws-secure-multi-account-foundation"
+      Environment = "lab"
+      Owner       = "KevinZheng"
     }
   }
 }
