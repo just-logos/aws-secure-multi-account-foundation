@@ -34,7 +34,7 @@ resource "aws_subnet" "private" {
 
   # Split 10.0.0.0/16 into /24 subnets
   # index 0 -> 10.0.0.0/24
-  # index 1 -> 10.0.0.1/24
+  # index 1 -> 10.0.1.0/24
   cidr_block = cidrsubnet(
     aws_vpc.workload.cidr_block,
     8,
